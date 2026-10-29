@@ -1,15 +1,17 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiogoLogrado/ollama-cloud-meter/main/images/banner-dark.png">
-    <img src="https://raw.githubusercontent.com/DiogoLogrado/ollama-cloud-meter/main/images/banner-light.png" width="700" alt="Ollama Cloud Meter">
-  </picture>
+  <img src="https://raw.githubusercontent.com/DiogoLogrado/ollama-cloud-meter/main/images/icon.png" width="128" alt="">
 </p>
+<h1 align="center">Ollama Cloud Meter</h1>
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=DiogoLogrado.ollama-cloud-meter"><img src="https://img.shields.io/badge/VS%20Marketplace-Ollama%20Cloud%20Meter-007ACC" alt="VS Marketplace"></a>
   <img src="https://img.shields.io/github/package-json/v/DiogoLogrado/ollama-cloud-meter" alt="version">
   <img src="https://img.shields.io/badge/license-Unlicense-blue" alt="license">
   <img src="https://img.shields.io/badge/VS%20Code-%5E1.93.0-007ACC" alt="VS Code">
 </p>
+
+> **No longer maintained:** I have stopped using Ollama, so I will probably not update
+> this extension again. It depends on an undocumented Ollama endpoint, so if it stops
+> working one day, that is most likely why. Feel free to fork it: the code is public domain.
 
 > **Unofficial:** This is a community project. It is not affiliated with, endorsed by or
 > supported by Ollama. "Ollama" is a trademark of its owner and is used here only to say
@@ -49,7 +51,7 @@ Authorization: Bearer <your Ollama API key>
 - Nothing is logged.
 - The key is stored in VS Code Secret Storage (OS keychain), or read from the `OLLAMA_API_KEY` environment variable.
 
-The balance endpoint is undocumented, so it may change or behave differently from what is assumed here. If it stops working, please open an issue.
+The balance endpoint is undocumented, so it may change or behave differently from what is assumed here.
 
 ## Install
 

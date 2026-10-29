@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+
+- README notes that the extension is no longer maintained.
+- README title is now text instead of an image, so it is readable in dark themes inside VS Code.
+
 ## 0.2.1
 
 - Without an API key the status bar item turns red and reads "Set Ollama API key"; clicking it opens the key prompt.
